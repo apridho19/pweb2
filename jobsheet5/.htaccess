@@ -1,0 +1,82 @@
+RewriteEngine On
+RewriteBase /jobsheet5/
+
+#Home
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^home/?$ index.php?page=$1 [L]
+
+#Mahasiswa
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^mahasiswa/?$ views/mahasiswa/index.php?page=$1 [L]
+
+#Mahasiswa
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^tambah_mhs/?$ views/mahasiswa/tambah_mhs.php?page=$1 [L]
+
+#Mahasiswa
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^proses_tambah/?$ views/mahasiswa/proses_tambah.php?page=$1 [L]
+
+#Mahasiswa
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^edit/?$ views/mahasiswa/edit.php [L]
+
+#Mahasiswa
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^hapus/?$ views/mahasiswa/hapus.php [L]
+
+#Dosen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^dosen/?$ views/dosen/index_dosen.php?page=$1 [L]
+
+#Dosen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^tambah_dosen/?$ views/dosen/tambah_dosen.php?page=$1 [L]
+
+#Dosen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^proses_tambah_dosen/?$ views/dosen/proses_tambah_dosen.php?page=$1 [L]
+
+#Dosen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^edit_dosen/?$ views/dosen/edit_dosen.php [L]
+
+#Dosen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^hapus_dosen/?$ views/dosen/hapus_dosen.php [L]
+
+#Buku
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^buku/?$ views/buku/index_bk.php?page=$1 [L]
+
+#Buku
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^tambah_bk/?$ views/buku/tambah_bk.php?page=$1 [L]
+
+#Dosen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^proses_tambah_bk/?$ views/buku/proses_tambah_bk.php?page=$1 [L]
+
+#Dosen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^edit_bk/?$ views/buku/edit_bk.php [L]
+
+#Dosen
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^hapus_bk/?$ views/buku/hapus_bk.php [L]
