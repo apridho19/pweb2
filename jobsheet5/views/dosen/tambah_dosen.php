@@ -7,15 +7,15 @@ require '../../index.php';
     <table>
         <tr>
             <td>NIDN</td>
-            <td><input type="text" name="nidn"></td>
+            <td><input class="form-control" type="text" name="nidn"></td>
         </tr>
         <tr>
             <td>Nama</td>
-            <td><input type="text" name="nama_dsn"></td>
+            <td><input class="form-control" type="text" name="nama_dsn"></td>
         </tr>
         <tr>
             <td>Prodi</td>
-            <td><input type="text" name="prodi"></td>
+            <td><input class="form-control" type="text" name="prodi"></td>
         </tr>
         <tr>
             <td></td>

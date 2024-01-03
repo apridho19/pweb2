@@ -1,0 +1,82 @@
+RewriteEngine On
+RewriteBase /Tugas/
+
+#Home
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^home/?$ index.php?page=$1 [L]
+
+#Stok
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^stok/?$ views/stok/index_stok.php?page=$1 [L]
+
+#Stok
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^tambah_stok/?$ views/stok/tambah_stok.php?page=$1 [L]
+
+#Stok
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^proses_tambah_stok/?$ views/stok/proses_tambah_stok.php?page=$1 [L]
+
+#Stok
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^edit_stok/?$ views/stok/edit_stok.php [L]
+
+#Stok
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^hapus_stok/?$ views/stok/hapus_stok.php [L]
+
+#Masuk
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^masuk/?$ views/masuk/index_masuk.php?page=$1 [L]
+
+#Masuk
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^tambah_masuk/?$ views/masuk/tambah_masuk.php?page=$1 [L]
+
+#Masuk
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^proses_tambah_masuk/?$ views/masuk/proses_tambah_masuk.php?page=$1 [L]
+
+#Masuk
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^edit_masuk/?$ views/masuk/edit_masuk.php [L]
+
+#Masuk
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^hapus_masuk/?$ views/masuk/hapus_masuk.php [L]
+
+#Keluar
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^keluar/?$ views/keluar/index_keluar.php?page=$1 [L]
+
+#Keluar
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^tambah_keluar/?$ views/keluar/tambah_keluar.php?page=$1 [L]
+
+#Keluar
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^proses_tambah_keluar/?$ views/keluar/proses_tambah_keluar.php?page=$1 [L]
+
+#Keluar
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^edit_keluar/?$ views/keluar/edit_keluar.php [L]
+
+#Keluar
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^hapus_keluar/?$ views/keluar/hapus_keluar.php [L]

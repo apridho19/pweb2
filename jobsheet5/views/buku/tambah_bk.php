@@ -7,19 +7,19 @@ require '../../index.php';
     <table>
         <tr>
             <td>Judul</td>
-            <td><input type="text" name="judul"></td>
+            <td><input class="form-control" type="text" name="judul"></td>
         </tr>
         <tr>
             <td>Pengarang</td>
-            <td><input type="text" name="pengarang"></td>
+            <td><input class="form-control" type="text" name="pengarang"></td>
         </tr>
         <tr>
             <td>Tahun Terbit</td>
-            <td><input type="text" name="tahun_terbit"></td>
+            <td><input class="form-control" type="text" name="tahun_terbit"></td>
         </tr>
         <tr>
             <td>Harga</td>
-            <td><input type="text" name="harga"></td>
+            <td><input class="form-control" type="text" name="harga"></td>
         </tr>
         <tr>
             <td></td>

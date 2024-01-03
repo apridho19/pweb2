@@ -16,7 +16,7 @@ $dosen = $dosenController->getAllDosen();
 <h3>Data Dosen</h3>
 <a class="btn btn-primary mb-2" href="tambah_dosen">Tambah Dosen</a>
 <br>
-<table class="table">
+<table class="table table-striped">
     <tr>
         <th>No</th>
         <th>NIDN</th>

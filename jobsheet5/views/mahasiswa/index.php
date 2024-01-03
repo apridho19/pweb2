@@ -16,7 +16,7 @@ $mahasiswa = $mahasiswaController->getAllMahasiswa();
 <h3>Data Mahasiswa</h3>
 <a class="btn btn-primary mb-2" href="tambah_mhs">Tambah Mahasiswa</a>
 <br>
-<table class="table">
+<table class="table table-striped">
     <tr>
         <th>No</th>
         <th>NIM</th>
