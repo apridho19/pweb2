@@ -15,7 +15,19 @@ require '../../index.php';
         </tr>
         <tr>
             <td>Program Studi</td>
-            <td><input type="text" name="program_studi"></td>
+            <td>
+                <select name="program_studi">
+                    <option value="D3 Teknik Informatika">D3 Teknik Informatika</option>
+                    <option value="D3 Teknik Mesin">D3 Teknik Mesin</option>
+                    <option value="D3 Teknik Elektro">D3 Teknik Elektro</option>
+                    <option value="D3 Teknik Listrik">D3 Teknik Listrik</option>
+                    <option value="D4 Pengembangan Produk Agroindustri">D4 Pengembangan Produk Agroindustri</option>
+                    <option value="D4 Teknik Pengendalian Pencemaran Lingkungan">D4 Teknik Pengendalian Pencemaran Lingkungan</option>
+                    <option value="D4 Rekayasa Keamanan Siber">D4 Rekayasa Keamanan Siber</option>
+                    <option value="D4 Teknik Rekayasa Multimedia">D4 Teknik Rekayasa Multimedia</option>
+                    <option value="D4 Teknik Mekatronika">D4 Teknik Mekatronika</option>
+                </select>
+            </td>
         </tr>
         <tr>
             <td>Tempat Lahir</td>
