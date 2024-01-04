@@ -1,0 +1,26 @@
+Kode untuk install Code Igniter
+
+1. Buka browser dan cari codeigniter.com
+
+2. Klik download
+
+3. Klik "User Guide" pada codeigniter versi 4
+
+4. Klik "Installation"
+
+5. Klik "Composer Installation"
+
+6. Masuk ke terminal laragon
+
+7. Masuk ke folder yang akan dipakai
+Contoh : C:/laragon/www
+
+8. Copy kode yang ada di installation
+"composer create-project codeigniter4/appstarter project-root"
+//Untuk "project-root" bisa diganti sesuai keinginan sendiri, contoh : "belajarci"
+
+9. Masuk ke folder yang sudah dibuat
+Contoh : cd/laragon/www/belajarci
+
+10. Mengecek local host
+"php spark serve"

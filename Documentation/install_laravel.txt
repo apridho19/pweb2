@@ -1,0 +1,17 @@
+Kode untuk install Laravel
+
+1. Buka browser dan cari laravel.com
+
+2. Klik "Documentation"
+
+3. Klik "Installation"
+
+4. Copy kode composer
+"composer create-project laravel/laravel example-app"
+//Untuk "example-app" bisa diganti sesuai keinginan sendiri, contoh : "belajar-laravel"
+
+5. Masuk ke folder yang suadh dibuat
+Contoh : cd belajar-laravel
+
+6. Mengecek localhost
+"php artisan serve"
